@@ -22,7 +22,6 @@ activate server
 server-->>browser:JSON file
 deactivate server
 
-
 browser->>server:POST {content: "hi", date: "2026-02-02T19:27:17.878Z"}
 activate server
 server-->>browser:response: {"message":"note created"}
